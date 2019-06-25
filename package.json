@@ -1,0 +1,23 @@
+{
+  "name": "brilliantcraft",
+  "version": "1.0.0",
+  "description": "Minecraft launcher for BrilliantCraft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinerChAI/BC-Launcher.git"
+  },
+  "keywords": [
+    "Minecraft"
+  ],
+  "author": "Mr_ChAI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinerChAI/BC-Launcher/issues"
+  },
+  "homepage": "https://github.com/MinerChAI/BC-Launcher#readme"
+}
