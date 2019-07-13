@@ -11,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/MinerChAI/BC-Launcher.git"
   },
-  "keywords": [
-    "Minecraft"
-  ],
-  "author": "Mr_ChAI",
+  "author": "Mr_ChAI <mr.kofe.edk@ya.ru>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MinerChAI/BC-Launcher/issues"
   },
-  "homepage": "https://github.com/MinerChAI/BC-Launcher#readme"
+  "homepage": "https://github.com/MinerChAI/BC-Launcher#readme",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-packager": "^14.0.1"
+  }
 }
