@@ -3,7 +3,7 @@
   src: url(fonts/Minecraft.ttf);
 }
 
-body {
+* {
   background-color: #FFFFFF;
   color: #000000;
   font-family: Minecraft, Arial;
