@@ -5,15 +5,11 @@ const $ = require('jQuery')
 document.getElementById('play').onclick = () => {
     const launcher = new Client();
     launcher.launch({
-        authorization: Authenticator.getAuth(data.auth.login),
-        root: data.root ? data.root : './.minecraft',
+        authorization: Authenticator.getAuth(data.nickname),
+        root: data.root ? data.root : './minecraft',
         version: {
             number: "1.12.2",
             type: "release"
-        },
-        memory: {
-            max: "6000",
-            min: "4000"
         },
         server: {
             host: "firemc.ru"
