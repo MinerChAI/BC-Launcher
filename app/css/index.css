@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Minecraft;
+  src: url(fonts/Minecraft.ttf);
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Minecraft, Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0px solid #000000;
+  padding: 0;
+  left: 0;
+  top: 0;
+  align: top;
+}
+.debug {
+  color: limegreen;
+}
+
+.data {
+  color: blue;
+}
+.error {
+color: red;
+}
+
